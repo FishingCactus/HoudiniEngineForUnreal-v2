@@ -49,6 +49,8 @@ FHoudiniStaticMeshGenerationProperties::FHoudiniStaticMeshGenerationProperties()
 	bGeneratedUseMaximumStreamingTexelRatio = false;
 	GeneratedStreamingDistanceMultiplier = 1.0f;
 	GeneratedDistanceFieldResolutionScale = 2.0f;
+
+	GeneratedFoliageDefaultSettings = nullptr;
 }
 
 
